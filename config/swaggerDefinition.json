@@ -1,0 +1,27 @@
+{
+    "info": {
+        "title": "API Node Sequelize",
+        "description": "API Node com Sequelize para treinamento",
+        "contact": {
+            "name": "Gustavo Mantovani",
+            "email": "gustavo@accellog.com"
+        },
+        "servers": ["http://localhost:3000/"],
+        "version": "1.0.0"
+    },
+    "host": "localhost:3000",
+    "basePath": "/",
+    "securityDefinitions": {
+        "JWT": {
+          "type": "apiKey",
+          "description": "JWT authorization of the API",
+          "name": "authorization",
+          "in": "header"
+        }
+      },
+      "security": [
+        {
+          "JWT": []
+        }
+      ]
+}
